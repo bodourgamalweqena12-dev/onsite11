@@ -3,8 +3,6 @@
     padding:0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-/* START Header Section */
 .Header{
     display:flex;    
 }
@@ -20,9 +18,7 @@
     font-size:28px;
     color:#354056;
 }
-/* END Header Section */
 
-/* START Banner Section */ 
 .Banner{
     background-image: url(./jj.bac.jpg);
    
@@ -435,14 +431,7 @@
     width:300px;
     height:200px;
 }
-/* END  Showcase Section  */
 
-/* START Footer Section */
-.footer #Copy{
-    margin-top:35px;
-    padding-bottom:35px;
-    padding-left:55px;
-}
 .footer .icons{
     margin-left:450px;
 }
@@ -455,9 +444,7 @@
 }
 /* END  Footer Section */
 }
-/* End @media screen and (max-width:1024px) -----------------------------------*/
 
-/* Start @media screen and (max-width:820px) -----------------------------------*/
 @media screen and (max-width:820px){
 /* START Header Section */
 .Header .Item1 img{
@@ -469,10 +456,7 @@
     margin-left:9px;
     margin-top:27px;
     font-size:27px;
-}
-/* END Header Section */
-
-/* START Banner Section */
+}
 .Banner {
    background-size:820px 100vh;
 }
@@ -494,9 +478,6 @@
     padding:12px 23px;
     font-size:14px;
 }
-/* END Banner Section */
-
-/* START Desing Section */
 .Desing {
     padding-bottom:70px;
 }
@@ -511,10 +492,7 @@
 }
 .Desing .Item5 p{
     margin-top:25px;
-}
-/* END Desing Section */
-
-/* START Feares Section */
+}
 .Feares{
     grid-template-columns: 250px 250px 250px ;
     justify-content:center;
@@ -524,10 +502,7 @@
 .Feares .Item6 img{
     width:80px;
     margin-left:75px;
-} 
-/* END Feares Section */
-
-/* START Showcase Section  */
+}
 .Showcase{
     padding-bottom:90px;
 }
@@ -566,15 +541,10 @@
     width:300px;
     height:200px;
 }
-/* END  Showcase Section  */
-
-/* START Contact Section  */
 .Contact {
     background-size: 820px 94vh;
 }
-/* END Contact Section */
 
-/* START Footer Section */
 .footer #Copy{
     margin-top:24px;
     padding-bottom:25px;
@@ -593,9 +563,6 @@
 }
 /* END  Footer Section */
 }
-/* End @media screen and (max-width:820px) -----------------------------------*/
-
-/* Start @media screen and (max-width:540px) -----------------------------------*/
 @media screen and (max-width:540px){
 /* START Header Section */
 .Header .Item1 img{
@@ -608,9 +575,7 @@
     margin-top:24px;
     font-size:25px;
 }
-/* END Header Section */
 
-/* START Banner Section */
 .Banner {
    background-size:540px 100vh;
 }
@@ -632,9 +597,7 @@
     padding:11px 22px;
     font-size:13px;
 }
-/* END Banner Section */
 
-/* START Desing Section */
 .Desing {
     padding-bottom:80px;
 }
@@ -647,10 +610,7 @@
 }
 .Desing .Item5 p{
     margin-top:22px;
-}
-/* END Desing Section */
-
-/* START Feares Section */
+}
 .Feares{
     grid-template-columns: 170px 170px 170px ;
     justify-content:center;
@@ -660,10 +620,7 @@
 .Feares .Item6 img{
     width:65px;
     margin-left:55px;
-} 
-/* END Feares Section */
-
-/* START Showcase Section  */
+} 
 .Showcase{
     padding-bottom:90px;
 }
@@ -708,15 +665,10 @@
     height:140px;
     background-size:240px 140px;
 }
-/* END  Showcase Section  */
 
-/* START Contact Section  */
 .Contact {
     background-size:540px 98vh;
-}
-/* END Contact Section */
-
-/* START Footer Section */
+}
 .footer #Copy{
     margin-top:20px;
     padding-bottom:20px;
@@ -738,12 +690,10 @@
 }
 /* END  Footer Section */
 }
-/* End @media screen and (max-width:540px) -----------------------------------*/
 
-
-/* Start @media screen and (max-width:412px) -----------------------------------*/
+
 @media screen and (max-width:412px){
-/* START Header Section */
+
 .Header .Item1 img{
     width:60px;
     margin-left:50px;
@@ -904,6 +854,3 @@
 .footer .icons #ic-1{
     width:24px;
 }
-/* END  Footer Section */
-}
-/* End @media screen and (max-width:412px) -----------------------------------*/
